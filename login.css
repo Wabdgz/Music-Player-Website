@@ -1,0 +1,109 @@
+
+#container {
+  padding: 20px;
+  background: white;
+  max-width: 320px;
+  margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+}
+#container h1 {
+  font-size: 24px;
+  margin: 0;
+  color: lightpink;
+    text-align: center;
+}
+#container label, #container input {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+#container input[type=username], #container input[type=password] {
+  padding: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+#container input[type=submit] {
+  background: lightpink;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+  border: 0;
+    width: 100%;
+}
+
+
+body{
+   margin: 0px;
+  background-image: url(images/hipback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+div{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+#error{
+    margin: auto;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border-radius 10px;
+}
+
+/*navbar*/
+#navbar{
+  list-style-type: none;
+  overflow: inherit;
+  position: fixed; 
+  top: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  background-color: grey;  
+    z-index: 10;
+}
+
+
+.Tabs{
+     margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: white;
+    border-radius: 25px;
+    }
+
+.Tabs1{
+     margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: white;
+    border-radius: 25px;
+    background-color: white;
+  color: black;
+}
+
+li {
+  float: left;
+    }
+
+a {
+  display: block;
+  padding: 8px;
+    text-decoration: none;
+    }
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+li a:active {
+     background-color: black;
+  color: white;
+}
+
+/*end nav bar*/

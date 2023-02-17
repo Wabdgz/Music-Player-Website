@@ -1,0 +1,162 @@
+/* Music player example used from class, Created by professor Wergeles, as said we are allowed to.*/
+
+#Player {
+background-image: url(images/Player.jpg);
+width: 300px;
+height: 266px;
+margin: 15px auto;
+    border: 4px solid black;
+     border-radius: 15px;
+}
+
+ #message {
+text-align: center;
+}
+
+#music {
+list-style: none;
+}
+
+#music > li {
+display: inline-block;
+
+}
+/*End reference*/
+
+/*navbar*/
+#navbar{
+  list-style-type: none;
+  overflow: inherit;
+  position: fixed; 
+  top: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  background-color: grey;  
+    z-index: 10;
+
+    }
+
+.Tabs{
+     margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: white;
+    border-radius: 25px;
+    }
+
+.Tabs1{
+     margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: white;
+    border-radius: 25px;
+    background-color: white;
+  color: black;
+}
+
+li {
+  float: left;
+    }
+
+a {
+  display: block;
+  padding: 8px;
+    text-decoration: none;
+    }
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+li a:active {
+     background-color: black;
+  color: white;
+}
+
+/*end nav bar*/
+
+body{
+     margin:0;
+  background-image: url(images/popback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.record {
+width: 200px;
+height: 200px;
+border-radius: 50px;
+}
+
+
+ #stop{
+     
+     height: 80px;
+     width: 100px;
+     color: white;
+     background-color: red;
+     border: 2px solid black;
+     border-radius: 15px;
+     display: block;
+     text-align: center;
+     margin: auto;
+}
+
+.clearhack:after{
+ content:"";
+ display: block;
+ clear: both;
+}
+
+#wrapper{
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    height: 550px;
+    width: 1000px;
+    
+}
+
+#left{
+/*
+    border: 4px solid red;
+    border-radius: 10px;
+*/
+    width: 400px;
+    height: 450px;
+    float: left;
+    
+}
+
+#songs{
+    float: right;
+/*
+    border: 3px solid blue;
+    border-radius: 10px;
+*/
+    width: 600px;
+    height: 450px;
+}
+
+audio{
+    display: none;
+}
+
+#title{
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    display: block;
+   margin-top: 500px;
+    color: white;
+}
